@@ -25,7 +25,7 @@
   min-height: 720px;
   max-width: 95vw;
   gap: 2%;
-  border: 1px solid var(--border-color);
+  border: 3px solid var(--border-color);
   border-radius: 16px;
 }
 
@@ -156,18 +156,18 @@
 }
 
 .quantityControlButton {
-  cursor: pointer;
+  cursor: cell;
   width: 42px;
   height: 42px;
   border-radius: 50%;
   font-size: 2rem;
   background-color: transparent;
-  border: 1px solid grey;
-  color: #fff;
+  border: 4px solid rgb(188, 80, 255);
+  color: rgba(255, 255, 255, 0.993);
 }
 
 .quantityControlButton:disabled {
-  opacity: 0.25;
+  opacity: 0.55;
 }
 
 /* On mobile, make the .mintInfoContainer stack vertically */

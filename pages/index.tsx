@@ -17,7 +17,7 @@ import styles from "../styles/Theme.module.css";
 import { parseIneligibility } from "../utils/parseIneligibility";
 
 // Put Your NFT Drop Contract address from the dashboard here
-const myNftDropContractAddress = "0x90E2dD8C48cA35534Dd70e3eC19B362cdf71981E";
+const myNftDropContractAddress = "0xC2C717cAc3da3FFfc19E3F63A175Eb80A1Bd312d";
 
 const Home: NextPage = () => {
   const { contract: nftDrop } = useContract(myNftDropContractAddress);
@@ -189,7 +189,7 @@ const Home: NextPage = () => {
       if (pricePerToken.eq(0)) {
         return "Mint (Free)";
       }
-      return `Mint (${priceToMint})`;
+      return `Mint`;
     }
     if (claimIneligibilityReasons.data?.length) {
       return parseIneligibility(claimIneligibilityReasons.data, quantity);
@@ -317,7 +317,7 @@ const Home: NextPage = () => {
       {/* Powered by thirdweb */}{" "}
       <img
         src="/logo.png"
-        alt="thirdweb Logo"
+        alt="z1 Logo"
         width={135}
         className={styles.buttonGapTop}
       />
