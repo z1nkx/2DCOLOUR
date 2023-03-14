@@ -1,28 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
-/* Change the values in here to match your branding */
-:root {
-
-  /* Color of the text/words */
-  --text-color: rgb(255, 255, 255);
-
-  /* Main color of your brand */
-  --color-primary: #f213a4;
-
-  /* Secondary color of your brand */
-  --color-secondary: #418dff;
-
-  /* Which font you want to use */
-  --font: "Roboto Mono", monospace;
-
-
-  /* Color of the border around items */
-  --border-color: rgb(255, 255, 255);
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-/* --- Don't need to modify below here --- */
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  padding-bottom: 250px;
+}
 
-/* Default design values of the entire document */
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: Monoid;
+}
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --tw-color1: #a855f7;
+  --tw-color1-hover: #9333ea;
+}
+
 body {
   background-image: url('/icons/shoes49.png');
   background-size: cover;
@@ -36,9 +43,13 @@ body {
   text-align: center;
 }
 
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+h2 {
+  font-size: 2rem;
+  color: var(--white);
 }
+
+
+
+
+
+
