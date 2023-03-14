@@ -13,7 +13,7 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   padding-bottom: 250px;
-  background-image: url("/shoes.49.png");
+  background-image: url("/public/shoes.49.png");
   background-size: cover;
   background-position: center;
 }
