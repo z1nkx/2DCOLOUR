@@ -9,13 +9,16 @@
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-  padding-bottom: 250px;
-  background-image: url("/public/shoes.49.png");
+  background-image: url('/public/shoes49.png');
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: "Monoid", monospace;
+  color: var(--white);
+  display: flex;
+  margin: 0;
+  text-align: center;
 }
 
 /* Inherit fonts for inputs and buttons */
