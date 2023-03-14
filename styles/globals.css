@@ -9,17 +9,14 @@
 
 /* Set core body defaults */
 body {
-  background-image: url('/public/shoes499.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
+  background-color: #000000;
   font-family: "Monoid", monospace;
   color: var(--white);
   display: flex;
   margin: 0;
   text-align: center;
 }
+
 
 /* Inherit fonts for inputs and buttons */
 input,
