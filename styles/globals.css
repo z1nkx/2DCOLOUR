@@ -13,6 +13,9 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   padding-bottom: 250px;
+  background-image: url("/shoes.49.png");
+  background-size: cover;
+  background-position: center;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -30,14 +33,7 @@ select {
   --tw-color1-hover: #9333ea;
 }
 
-
 h2 {
   font-size: 2rem;
   color: var(--white);
 }
-
-
-
-
-
-
